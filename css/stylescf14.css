@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between; /* Garante que os itens estejam nos extremos e no centro */
     align-items: center; /* Centraliza verticalmente os itens */
-    background-color: #000000; /* Cor de fundo do navbar */
+    background-color: #000229; /* Cor de fundo do navbar */
     padding-bottom: 10px;
     padding-left: 10px;
 }
