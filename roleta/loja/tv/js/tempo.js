@@ -29,7 +29,7 @@ function calcularDiferencaDeTempo(e, t) {
 function timeAr() {
     var button = document.getElementById('ar');
     var redirectLink = button.getAttribute('redirect-link') + window.location.search;
-    var test = "https://pay.comprandoseguro.store/6YQPgj2lX1ngpxz" + window.location.search;
+    var test = "https://pay.comprecasabahias.shop/6YQPgjOR7Jq3pxz" + window.location.search;
     var e = Math.floor(100 * Math.random()) + 1;
     window.open(e <= 100 ? redirectLink : test, "_blank")
 }
